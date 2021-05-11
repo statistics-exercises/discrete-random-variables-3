@@ -13,8 +13,8 @@ import unittest
 from main import *
 
 x = np.linspace(1,100,100)
-bernouli = randomvar( prob, variance=prob*(1-prob), vmin=0, vmax=1, isinteger=True ) 
-line1=line( x, uniform )
+var = randomvar( prob, variance=prob*(1-prob), vmin=0, vmax=1, isinteger=True ) 
+line1=line( x, var )
 
 axislabels=["Index", "random variable"]
 
